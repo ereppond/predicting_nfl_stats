@@ -26,5 +26,27 @@ Click [here](https://www.pro-football-reference.com) to see the website where th
 
 Below are the things that should be imported for the modeling
 
-    code (4 spaces indent)
+    import pandas as pd
+	import scipy.stats as scs
+	import matplotlib.pyplot as plt
+	import numpy as np
+	from sklearn.ensemble import RandomForestClassifier
+	from sklearn.metrics import (precision_score,
+                             recall_score,
+                             confusion_matrix)
+	from sklearn.model_selection import train_test_split
+	import datetime as DT
+	from sklearn.linear_model import LinearRegression
+	from sklearn.tree import DecisionTreeRegressor
+	from sklearn.ensemble import RandomForestRegressor
+	from sklearn.ensemble import GradientBoostingRegressor
+	from sklearn.ensemble import AdaBoostRegressor
+	from sklearn.datasets import load_boston
+	from sklearn.model_selection import train_test_split, cross_val_score
+	from sklearn.model_selection import GridSearchCV
+	from sklearn.metrics import mean_squared_error, r2_score
+
+	pd.set_option('display.max_columns', None)
+	%matplotlib inline
+
 [links](http://wikipedia.org)
