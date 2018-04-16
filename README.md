@@ -48,5 +48,3 @@ Below are the things that should be imported for the modeling
 
 	pd.set_option('display.max_columns', None)
 	%matplotlib inline
-
-[links](http://wikipedia.org)
